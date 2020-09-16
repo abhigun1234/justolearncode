@@ -1,0 +1,28 @@
+<section class="courses-area ptb-100">
+    <div class="container">
+        <div class="section-title text-left">
+            <span class="sub-title">Discover Courses</span>
+            <h2>Our Popular Online Courses</h2>
+            <a class="default-btn"><i class='bx bx-show-alt icon-arrow before'></i><span class="label">All Courses</span><i class="bx bx-show-alt icon-arrow after"></i></a>
+    </div>
+
+        <div class="courses-slides owl-carousel owl-theme">
+                <div *ngFor="let course of courseDetails index as i" class="single-courses-box without-box-shadow mb-30">
+                        <div class="courses-image">
+                            <a  (click)="nevigateToCourseDetails(i)"  class="d-block"><img src="{{course.imageUrl}}" alt="image"></a>
+                            <div class="courses-tag">
+                                <a routerLink="/" class="d-block">{{course.name}}</a>
+                            </div>
+                        </div>
+
+                        <div class="courses-content">
+                            <div class="course-author d-flex align-items-center">
+                                <img  src="assets/img/user1.jpg" class="rounded-circle mr-2" alt="image" >
+                                <span>{{course.courseDesc}}</span>
+                            </div>
+                        </div>
+                        
+                </div>
+        </div>
+    </div>
+</section>
