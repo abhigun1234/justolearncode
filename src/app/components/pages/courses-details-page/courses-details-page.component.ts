@@ -7,12 +7,18 @@ import {ActivatedRoute} from '@angular/router'
 })
 export class CoursesDetailsPageComponent implements OnInit {
   courseName
+  
   constructor(public route :ActivatedRoute) { 
   
   }
 
   ngOnInit(): void {
-    this.courseName=this.route.snapshot.params['']
+    let id=this.courseName=this.route.snapshot.paramMap.get('id')
+    //alert(id)
+    if(id==='0')
+      {
+      
+      }
   }
 
 }

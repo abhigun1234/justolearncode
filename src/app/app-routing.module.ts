@@ -94,7 +94,7 @@ const routes: Routes = [
     {path: 'courses-2-columns-style-3', component: CoursesGridStyleThreeColumnsTwoPageComponent},
     {path: 'courses-3-columns-style-3', component: CoursesGridStyleThreeColumnsThreePageComponent},
     {path: 'courses-4-columns-style-3', component: CoursesGridStyleThreeColumnsFourPageComponent},
-    {path: 'single-courses', component: CoursesDetailsPageComponent},
+    {path: 'single-courses/:id', component: CoursesDetailsPageComponent},
     {path: 'my-dashboard', component: MyDashboardPageComponent},
     {path: 'orders', component: OrdersPageComponent},
     {path: 'downloads', component: DownloadsPageComponent},

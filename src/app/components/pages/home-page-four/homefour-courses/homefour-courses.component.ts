@@ -21,14 +21,8 @@ export class HomefourCoursesComponent implements OnInit {
   }
   nevigateToCourseDetails(i) {
     console.log("i",i)
-    if(i===0){
-        this.courseName="angular"
-        this.route.navigate('/single-courses',this.courseName)
-      }
-      else if(i==1){
-        this.courseName="react"
-        this.route.navigate('/single-courses',this.courseName)
-      }
+    this.route.navigate(['/single-courses',i])
+   
   }
 
 }
