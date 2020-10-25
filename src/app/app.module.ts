@@ -104,6 +104,12 @@ import { EditAddressPageComponent } from './components/pages/edit-address-page/e
 import { EditAccountPageComponent } from './components/pages/edit-account-page/edit-account-page.component';
 import { EditBillingAddressPageComponent } from './components/pages/edit-billing-address-page/edit-billing-address-page.component';
 import { EditShippingAddressPageComponent } from './components/pages/edit-shipping-address-page/edit-shipping-address-page.component';
+import { Course1Component } from './coursecontent/course1/course1.component';
+import { Course2Component } from './coursecontent/course2/course2.component';
+import { Course3Component } from './coursecontent/course3/course3.component';
+import { Course4Component } from './coursecontent/course4/course4.component';
+import { Course5Component } from './coursecontent/course5/course5.component';
+import { Course6Component } from './coursecontent/course6/course6.component';
 
 @NgModule({
   declarations: [
@@ -208,7 +214,13 @@ import { EditShippingAddressPageComponent } from './components/pages/edit-shippi
     EditAddressPageComponent,
     EditAccountPageComponent,
     EditBillingAddressPageComponent,
-    EditShippingAddressPageComponent
+    EditShippingAddressPageComponent,
+    Course1Component,
+    Course2Component,
+    Course3Component,
+    Course4Component,
+    Course5Component,
+    Course6Component
   ],
   imports: [
     BrowserModule,

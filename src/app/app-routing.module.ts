@@ -55,7 +55,12 @@ import { EditAddressPageComponent } from './components/pages/edit-address-page/e
 import { EditAccountPageComponent } from './components/pages/edit-account-page/edit-account-page.component';
 import { EditBillingAddressPageComponent } from './components/pages/edit-billing-address-page/edit-billing-address-page.component';
 import { EditShippingAddressPageComponent } from './components/pages/edit-shipping-address-page/edit-shipping-address-page.component';
-
+import {Course1Component} from './coursecontent/course1/course1.component'
+import {Course2Component} from './coursecontent/course2/course2.component'
+import {Course4Component} from './coursecontent/course4/course4.component'
+import {Course3Component} from './coursecontent/course3/course3.component'
+import {Course5Component} from './coursecontent/course5/course5.component'
+import {Course6Component} from './coursecontent/course6/course6.component'
 const routes: Routes = [
     {path: '', component: HomePageOneComponent},
     {path: 'course-portal-online', component: HomePageTwoComponent},
@@ -112,6 +117,12 @@ const routes: Routes = [
     {path: 'cart', component: CartPageComponent},
     {path: 'checkout', component: CheckoutPageComponent},
     {path: 'contact', component: ContactPageComponent},
+    {path:'course1',component:Course1Component},
+    {path:'course2',component:Course2Component},
+    {path:'course4',component:Course4Component},
+    {path:'course3',component:Course3Component},
+    {path:'course5',component:Course5Component},
+    {path:'course6',component:Course6Component},
     {path: '**', component: ErrorPageComponent}
 ];
 

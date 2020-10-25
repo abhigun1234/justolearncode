@@ -11,8 +11,8 @@ export class HomefourCoursesComponent implements OnInit {
   ,{name:"React",imageUrl:'assets/img/courses/courses2.jpg',courseDesc:'MernStack'},
   {name:"Python",imageUrl:'assets/img/courses/courses3.jpg',courseDesc:'Python Django/Flask'},
   {name:"Selenium",imageUrl:'assets/img/courses/courses4.jpg',courseDesc:'Automation'},
-  {name:"Node Js",imageUrl:'assets/img/courses/courses5.jpg',courseDesc:'MeanStack'},
-  {name:"Oracle Plsql",imageUrl:'assets/img/courses/courses6.jpg',courseDesc:'Database'}]
+  {name:"Node Js",imageUrl:'assets/img/courses/courses5.jpg',courseDesc:'MeanStack'}
+ ]
   constructor(private route:Router) { }
   ngOnInit(): void {
   }

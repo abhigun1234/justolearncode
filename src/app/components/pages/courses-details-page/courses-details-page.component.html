@@ -1,190 +1,214 @@
 <app-header-style-one></app-header-style-one>
 
-<div class="page-title-area item-bg1 jarallax" data-jarallax='{"speed": 0.3}'>
-    <div class="container">
-        <div class="page-title-content">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="courses-2-columns-style-1.html">Courses</a></li>
-                <li>Angular 10 + Project </li>
-            </ul>
-            <h2>Courses</h2>
+<!-- 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------\
+---------------------------------------------------------------------------------
+react course coontent
+
+
+-->
+
+<div *ngIf="reactCourse">
+    <div class="page-title-area item-bg1 jarallax" data-jarallax='{"speed": 0.3}'>
+        <div class="container">
+            <div class="page-title-content">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses-2-columns-style-1.html">Courses</a></li>
+                    <li>React Js </li>
+                </ul>
+                <h2>Courses</h2>
+            </div>
         </div>
     </div>
-</div>
-
-<section class="courses-details-area pt-100 pb-70">
-    <div class="container">
-        <div class="courses-details-header">
-            <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <div class="courses-title">
-                        <h2>Angular 10 + Project</h2>
-                        <p>Version 10.0.0 is here! This is a major release that spans the entire platform, including the framework, Angular Material, and the CLI. This release is smaller than typical; it has only been 4 months since we released version 9.0 of Angular.</p>
-                    </div>
-
-                    <div class="courses-meta">
-                        <ul>
-                            <li>
-                                <i class='bx bx-folder-open'></i>
-                                <span>Category</span>
-                                <a routerLink="/single-courses">Design</a>
-                            </li>
-                            <li>
-                                <i class='bx bx-group'></i>
-                                <span>Students Enrolled</span>
-                                <a routerLink="/single-courses">813,454</a>
-                            </li>
-                            <li>
-                                <i class='bx bx-calendar'></i>
-                                <span>Last Updated</span>
-                                <a routerLink="/single-courses">01/14/2019</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="courses-price">
-                        <div class="courses-review">
-                            <div class="review-stars">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                            </div>
-                            <span class="reviews-total d-inline-block">(2 reviews)</span>
+    
+    <section class="courses-details-area pt-100 pb-70">
+        <div class="container">
+            <div class="courses-details-header">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="courses-title">
+                            <h2>Angular 10 + Project</h2>
+                            <p>Version 10.0.0 is here! This is a major release that spans the entire platform, including the
+                                framework, Angular Material, and the CLI. This release is smaller than typical; it has only
+                                been 4 months since we released version 9.0 of Angular.</p>
                         </div>
-                        <div class="price">$250</div>
-                        <a routerLink="/single-courses" class="default-btn"><i class='bx bx-paper-plane icon-arrow before'></i><span class="label">Buy Course</span><i class="bx bx-paper-plane icon-arrow after"></i></a>
+    
+                        <div class="courses-meta">
+                            <ul>
+                                <li>
+                                    <i class='bx bx-folder-open'></i>
+                                    <span>Category</span>
+                                    <a routerLink="/single-courses">Design</a>
+                                </li>
+                                <li>
+                                    <i class='bx bx-group'></i>
+                                    <span>Students Enrolled</span>
+                                    <a routerLink="/single-courses">813,454</a>
+                                </li>
+                                <li>
+                                    <i class='bx bx-calendar'></i>
+                                    <span>Last Updated</span>
+                                    <a routerLink="/single-courses">01/14/2019</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-4">
+                        <div class="courses-price">
+                            <div class="courses-review">
+                                <div class="review-stars">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <span class="reviews-total d-inline-block">(2 reviews)</span>
+                            </div>
+                         
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-8">
-                <div class="courses-details-image text-center">
-                    <video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="267px" controls preload="none"
-                    poster='/assets/img/angular.jpeg'
-                    data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
-                    <source src="http://justolearn.com/angular.mp4" type='video/mp4' />
-                    </video>
-                    <!-- <button (click)="playPause()">Play/Pause</button>
-                    <button (click)="makeBig()">Big</button>
-                    <button (click)="makeSmall()">Small</button>
-                    <button (click)="makeNormal()">Normal</button>
-                    <button (click)="restart();">Restart</button>
-                    <button (click)="skip(-10)">Rewind</button>
-                    <button (click)="skip(10)">Fastforward</button> -->
-                </div>
-
-                <div class="courses-details-desc">
-                    <h3>What you'll learn</h3>
-                    <div class="why-you-learn">
-                        <ul>
-                            <li>
-                                <span>
-                                    <i class='bx bx-check'></i>
-                                    Become an expert in Statistics
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <i class='bx bx-check'></i>
-                                    Boost your resume with skills
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <i class='bx bx-check'></i>
-                                    Gather, organize, data
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <i class='bx bx-check'></i>
-                                    Use data for improved
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <i class='bx bx-check'></i>
-                                    Present information KPIs
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <i class='bx bx-check'></i>
-                                    Perform quantitative
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <i class='bx bx-check'></i>
-                                    Analyze current data
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <i class='bx bx-check'></i>
-                                    Discover how to find trends
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <i class='bx bx-check'></i>
-                                    Understand the fundamentals
-                                </span>
-                            </li>
-                            <li>
-                                <span>
-                                    <i class='bx bx-check'></i>
-                                    Use SQL to create, design
-                                </span>
-                            </li>
-                        </ul>
+    
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="courses-details-image text-center">
+                        <video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="267px" controls
+                            preload="none" poster='/assets/img/angular.jpeg'
+                            data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+                            <source src="http://justolearn.com/angular.mp4" type='video/mp4' />
+                        </video>
+                        <!-- <button (click)="playPause()">Play/Pause</button>
+                        <button (click)="makeBig()">Big</button>
+                        <button (click)="makeSmall()">Small</button>
+                        <button (click)="makeNormal()">Normal</button>
+                        <button (click)="restart();">Restart</button>
+                        <button (click)="skip(-10)">Rewind</button>
+                        <button (click)="skip(10)">Fastforward</button> -->
                     </div>
-                    <h3>Requirements</h3>
-                    <ul class="requirements-list">
-                        <li>Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
-                        <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry.</li>
-                        <li>The standard Lorem Ipsum passage, used since the 1500s.</li>
-                    </ul>
-                    <h3>Angular 10</h3>
-                    <p><strong>Hi! Welcome to Certified Graphic Design with Free Project Course, the only course you need to become a BI Analyst.</strong></p>
-                    <p>We are proud to present you this one-of-a-kind opportunity. There are several online courses teaching some of the skills related to the BI Analyst profession. The truth of the matter is that none of them completely prepare you.</p>
-                    <p><strong>Introduction</strong></p>
-                    <ul class="description-features-list">
-                        <li>What is Angular 10</li>
-                        <li> How Angular Works </li>
-                        <li>Difference between Angular and Other</li>
-                        <li>Advantages of Angular</li>
-                    </ul>
-                    <p><strong>Typescript</strong></p>
-                    <ul class="description-features-list">
-                        <li>What is typescript?</li>
-                        <li>Compare typescript with Javascript</li>
-                        <li> Data Types & Variables</li>
-                        <li>Variable & Operators </li>
-                        <li>Control Structure and Decision making </li>
-                        <li>loops</li>
-                        <li>Typescript Functions & Strings</li>
-                        <li>Typescript Object</li>
-                        <li>Class , Abstract Class</li>
-                        <li>Constructor Method</li>
-                        <li>Type of Assertion</li>
-                        <li>Interfaces </li>
-                    </ul>
-                    <p><strong>Application setup</strong></p>
-                    <ul class="description-features-list">
-                        <li>Installing Angular JS</li>
-                        <li>Creating an Angular 2 project</li>
-                        <li>Creating an Angular 2 project using CLI</li>
-                    </ul>
-                    <p><strong> Architecture </strong></p>
-                    <ul class="description-features-list">
+    
+                    <div class="courses-details-desc">
+                        <h3>What you'll learn</h3>
+                        <div class="why-you-learn">
+                            <ul>
+                                <li>
+                                    <span>
+                                        <i class='bx bx-check'></i>
+                                        Become an expert in Statistics
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class='bx bx-check'></i>
+                                        Boost your resume with skills
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class='bx bx-check'></i>
+                                        Gather, organize, data
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class='bx bx-check'></i>
+                                        Use data for improved
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class='bx bx-check'></i>
+                                        Present information KPIs
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class='bx bx-check'></i>
+                                        Perform quantitative
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class='bx bx-check'></i>
+                                        Analyze current data
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class='bx bx-check'></i>
+                                        Discover how to find trends
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class='bx bx-check'></i>
+                                        Understand the fundamentals
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class='bx bx-check'></i>
+                                        Use SQL to create, design
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <h3>Requirements</h3>
+                        <ul class="requirements-list">
+                            <li>Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
+                            <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                                been the industry.</li>
+                            <li>The standard Lorem Ipsum passage, used since the 1500s.</li>
+                        </ul>
+                        <h3>Angular 10</h3>
+                        <p><strong>Hi! Welcome to Certified Graphic Design with Free Project Course, the only course you
+                                need to become a BI Analyst.</strong></p>
+                        <p>We are proud to present you this one-of-a-kind opportunity. There are several online courses
+                            teaching some of the skills related to the BI Analyst profession. The truth of the matter is
+                            that none of them completely prepare you.</p>
+                        <div class="titlecourse">
+                            <p ><strong>Introduction</strong></p>
+                        </div>
+                        <ul class="description-features-list">
+                            <li>What is Angular 10</li>
+                            <li> How Angular Works </li>
+                            <li>Difference between Angular and Other</li>
+                            <li>Advantages of Angular</li>
+                        </ul>
+                        <div class="titlecourse">
+                            <p ><strong>TypeScript</strong></p>
+                        </div>
+                        <ul class="description-features-list">
+                            <li>What is typescript?</li>
+                            <li>Compare typescript with Javascript</li>
+                            <li> Data Types & Variables</li>
+                            <li>Variable & Operators </li>
+                            <li>Control Structure and Decision making </li>
+                            <li>loops</li>
+                            <li>Typescript Functions & Strings</li>
+                            <li>Typescript Object</li>
+                            <li>Class , Abstract Class</li>
+                            <li>Constructor Method</li>
+                            <li>Type of Assertion</li>
+                            <li>Interfaces </li>
+                        </ul>
+                        <div class="titlecourse">
+                            <p ><strong>Application Setup</strong></p>
+                        </div>
+                        <ul class="description-features-list">
+                            <li>Installing Angular JS</li>
+                            <li>Creating an Angular 2 project</li>
+                            <li>Creating an Angular 2 project using CLI</li>
+                        </ul>
+                      
+                        <div class="titlecourse">
+                            <p ><strong>Architecture</strong></p>
+                        </div>
+                        <ul class="description-features-list">
                             <li>Module</li>
                             <li>Component</li>
                             <li>Template</li>
@@ -195,304 +219,262 @@
                             <li>Structural Directive</li>
                             <li>Dependency Injection</li>
                         </ul>
-                    <h3>Who this course is for:</h3>
+                        
+                        <div class="titlecourse">
+                            <p ><strong>Directives</strong></p>
+                        </div>
+                        <ul class="audience-list">
+                            <li>Understanding Directives</li>
+                            <li>Directives Overview</li>
+                            <li>Different kinds of directives</li>
+                            <li>Build attribute directive</li>
+                            <li> Apply the attribute directive to an element in a template</li>
+                            <li>Respond to user-initiated events</li>
+                            <li> Pass value into the directive with an @Input data binding</li>
+                            <li>Custom Attribute Directive</li>
+                        </ul>
+                        <div class="titlecourse">
+                            <p ><strong>Structural Attribute Directive</strong></p>
+                        </div>
+                        <ul class="audience-list">
+                            <li>What is structural directive?</li>
+                            <li>NgIf case study</li>
+                            <li>NgFor,NgSwitch</li>
+                            <li>
+                                Using the NgClass Directive
+                            </li>
+                        </ul>
+    
+                    </div>
+    
+                    <div class="related-courses">
+                        <h3>Related Courses</h3>
+    
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="single-courses-box mb-30">
+                                    <div class="courses-image">
+                                        <a routerLink="/single-courses" class="d-block"><img
+                                                src="assets/img/courses/courses1.jpg" alt="image"></a>
+                                        <div class="courses-tag">
+                                            <a routerLink="/courses-2-columns-style-1" class="d-block">Business</a>
+                                        </div>
+                                    </div>
+    
+                                    <div class="courses-content">
+                                        <div class="course-author d-flex align-items-center">
+                                            <img src="assets/img/user1.jpg" class="rounded-circle mr-2" alt="image">
+                                            <span>Steven Smith</span>
+                                        </div>
+                                        <h3><a routerLink="/single-courses" class="d-inline-block">Raque Professional IT
+                                                Expert Certificate Course</a></h3>
+                                        <div class="courses-rating">
+                                            <div class="review-stars-rated">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                            </div>
+                                            <div class="rating-total">
+                                                5.0 (1 rating)
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="courses-box-footer">
+                                        <ul>
+                                            <li class="students-number">
+                                                <i class='bx bx-user'></i> 10 students
+                                            </li>
+                                            <li class="courses-lesson">
+                                                <i class='bx bx-book-open'></i> 6 lessons
+                                            </li>
+                                            <li class="courses-price">
+                                                Free
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-6 col-md-6">
+                                <div class="single-courses-box mb-30">
+                                    <div class="courses-image">
+                                        <a routerLink="/single-courses" class="d-block"><img
+                                                src="assets/img/courses/courses2.jpg" alt="image"></a>
+                                        <div class="courses-tag">
+                                            <a routerLink="/courses-2-columns-style-1" class="d-block">Design</a>
+                                        </div>
+                                    </div>
+    
+                                    <div class="courses-content">
+                                        <div class="course-author d-flex align-items-center">
+                                            <img src="assets/img/user2.jpg" class="rounded-circle mr-2" alt="image">
+                                            <span>Sarah Taylor</span>
+                                        </div>
+                                        <h3><a routerLink="/single-courses" class="d-inline-block">Certified Graphic Design
+                                                with Free Project Course</a></h3>
+                                        <div class="courses-rating">
+                                            <div class="review-stars-rated">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star-half'></i>
+                                            </div>
+                                            <div class="rating-total">
+                                                4.5 (2 rating)
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <div class="courses-box-footer">
+                                        <ul>
+                                            <li class="students-number">
+                                                <i class='bx bx-user'></i> 15 students
+                                            </li>
+                                            <li class="courses-lesson">
+                                                <i class='bx bx-book-open'></i> 10 lessons
+                                            </li>
+                                            <li class="courses-price">
+                                                $250
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4">
+                    <div class="courses-sidebar-information">
+                        <ul>
+                            <li>
+                                <span><i class='bx bx-group'></i> Students:</span>
+                                10
+                            </li>
+                            <li>
+                                <span><i class='bx bx-time'></i> Length:</span>
+                                5 Weeks
+                            </li>
+                            <li>
+                                <span><i class='bx bx-tachometer'></i> Effort:</span>
+                                5–6 hours per week
+                            </li>
+                            <li>
+                                <span><i class='bx bxs-institution'></i> Institution:</span>
+                                <a href="#" target="_blank" class="d-inline-block">Justolearn</a>
+                            </li>
+    
+                            <li>
+                                <span><i class='bx bx-atom'></i> Quizzes:</span>
+                                Yes
+                            </li>
+                            <li>
+                                <span><i class='bx bxs-badge-check'></i> Level:</span>
+                                Introductory
+                            </li>
+                            <li>
+                                <span><i class='bx bx-support'></i> Language:</span>
+                                English
+                            </li>
+    
+                            <li>
+                                <span><i class='bx bx-certification'></i> Certificate:</span>
+                                Yes
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="courses-purchase-info">
+                        <h4>Interested in this course for your Business or Team?</h4>
+                        <p>Train your employees in the most in-demand topics, with edX for Business.</p>
+    
+                    </div>
+                    <div class="coursem">
+                        <div class="titlecourse">
+                            <p ><strong>Service</strong></p>
+                        </div>
+                        <ul class="audience-list">
+                            <li>Create a service</li>
+                            <li>What is service?</li>
+                            <li>Async service and promise</li>
+                            <li>Introduction to Observable</li>
+                            <li>Injectable Services</li>
+                            <li>Dependency Injection</li>
+                            <li>Shared Services</li>
+                        </ul>
+                        <div class="titlecourse">
+                            <p ><strong>Matrial Design</strong></p>
+                        </div>
+                        <ul class="audience-list">
+                              
+                            <li>Introduction to matrial design</li>
+                            <li>How to use matrial components</li>
+                            <li>matrial grid</li>
+                            <li>matrial card </li>
+                            
+                        </ul>
+                        <div class="titlecourse">
+                            <p ><strong>Forms</strong></p>
+                        </div>
+                        <ul class="audience-list">
+                              
+                            <li>What is Forms and how we handle it?</li>
+                            <li>Template Driven</li>
+                            <li>Access of Forms</li>
+                            <li>Create Reactive form through code </li>
+                            <li>What is Reactive Forms</li>
+                            <li>Custom Validators</li>
+                            
+                        </ul>
+    
+                        <div class="titlecourse">
+                            <p ><strong>Forms</strong></p>
+                        </div>
+                        <ul class="audience-list">
+                        <li>What is Pipes in Angular?</li>
+                        <li>Chaining Multiple pipes in angular</li>
+                        <li>Filter Pipe</li>
+                        <li>async Pipes </li>
+                        <li>parameterizing a pipe</li>
+                        <li>Impure & Pure Pipe</li>
+                        </ul>
+                        <div class="titlecourse">
+                            <p ><strong> HTTP Requests</strong></p>
+                        </div>
+                        <ul class="audience-list">
+                        <li>What is HTTP Requests</li>
+                        <li>How to send requests</li>
+                        <li>How to handle Get and Put Request</li>
+                        <li>async with HTTP Requests </li>
+                        <li>Catching HTTP Error</li>    
+                    </ul> 
+                    <div class="titlecourse">
+                        <p ><strong> Unit Testing</strong></p>
+                    </div>
                     <ul class="audience-list">
-                        <li>Beginners to programming and data science</li>
-                        <li>Students eager to learn about job opportunities in the field of data science</li>
-                        <li>Candidates willing to boost their resume by learning how to combine the knowledge of Statistics, SQL, and Tableau in a real-world working environment</li>
-                        <li>SQL Programmers who want to develop business reasoning and apply their knowledge to the solution of various business tasks</li>
-                        <li>People interested in a Business Intelligence Analyst career</li>
-                    </ul>
-                    <h3>Meet your instructors</h3>
-                    <div class="courses-author">
-                        <div class="author-profile-header"></div>
-                        <div class="author-profile">
-                            <div class="author-profile-title">
-                                <img src="assets/img/user1.jpg" class="shadow-sm rounded-circle" alt="image">
-                                <div class="author-profile-title-details d-flex justify-content-between">
-                                    <div class="author-profile-details">
-                                        <h4>James Anderson</h4>
-                                        <span class="d-block">Photographer, Author, Teacher</span>
-                                    </div>
-
-                                    <div class="author-profile-raque-profile">
-                                        <a routerLink="/single-instructor" class="d-inline-block">View Profile on Ednuv</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>James Anderson is a celebrated photographer, author, and teacher who brings passion to everything he does.</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                        </div>
+                    <li>What is Unit Testing</li>
+                    <li>Adding Component with tests/li>
+                    <li>Running Test with CLI</li>
+                    <li>Async Tasks </li>
+                    <li>Components and dependencies</li>    
+                </ul>  
                     </div>
-
-                    <div class="courses-review-comments">
-                        <h3>3 Reviews</h3>
-                        <div class="user-review">
-                            <img src="assets/img/user1.jpg" alt="image">
-                            <div class="review-rating">
-                                <div class="review-stars">
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                </div>
-                                <span class="d-inline-block">James Anderson</span>
-                            </div>
-                            <span class="d-block sub-comment">Excellent</span>
-                            <p>Very well built theme, couldn't be happier with it. Can't wait for future updates to see what else they add in.</p>
-                        </div>
-
-                        <div class="user-review">
-                            <img src="assets/img/user2.jpg" alt="image">
-                            <div class="review-rating">
-                                <div class="review-stars">
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                </div>
-                                <span class="d-inline-block">Sarah Taylor</span>
-                            </div>
-                            <span class="d-block sub-comment">Video Quality!</span>
-                            <p>Was really easy to implement and they quickly answer my additional questions!</p>
-                        </div>
-
-                        <div class="user-review">
-                            <img src="assets/img/user3.jpg" alt="image">
-                            <div class="review-rating">
-                                <div class="review-stars">
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                    <i class='bx bxs-star'></i>
-                                </div>
-                                <span class="d-inline-block">David Warner</span>
-                            </div>
-                            <span class="d-block sub-comment">Perfect Coding!</span>
-                            <p>Stunning design, very dedicated crew who welcome new ideas suggested by customers, nice support.</p>
-                        </div>
                     </div>
-                </div>
-
-                <div class="related-courses">
-                    <h3>Related Courses</h3>
-
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="single-courses-box mb-30">
-                                <div class="courses-image">
-                                    <a routerLink="/single-courses" class="d-block"><img src="assets/img/courses/courses1.jpg" alt="image"></a>
-                                    <div class="courses-tag">
-                                        <a routerLink="/courses-2-columns-style-1" class="d-block">Business</a>
-                                    </div>
-                                </div>
-    
-                                <div class="courses-content">
-                                    <div class="course-author d-flex align-items-center">
-                                        <img src="assets/img/user1.jpg" class="rounded-circle mr-2" alt="image">
-                                        <span>Steven Smith</span>
-                                    </div>
-                                    <h3><a routerLink="/single-courses" class="d-inline-block">Raque Professional IT Expert Certificate Course</a></h3>
-                                    <div class="courses-rating">
-                                        <div class="review-stars-rated">
-                                            <i class='bx bxs-star'></i>
-                                            <i class='bx bxs-star'></i>
-                                            <i class='bx bxs-star'></i>
-                                            <i class='bx bxs-star'></i>
-                                            <i class='bx bxs-star'></i>
-                                        </div>
-                                        <div class="rating-total">
-                                            5.0 (1 rating)
-                                        </div>
-                                    </div>
-                                </div>
-    
-                                <div class="courses-box-footer">
-                                    <ul>
-                                        <li class="students-number">
-                                            <i class='bx bx-user'></i> 10 students
-                                        </li>
-                                        <li class="courses-lesson">
-                                            <i class='bx bx-book-open'></i> 6 lessons
-                                        </li>
-                                        <li class="courses-price">
-                                            Free
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="col-lg-6 col-md-6">
-                            <div class="single-courses-box mb-30">
-                                <div class="courses-image">
-                                    <a routerLink="/single-courses" class="d-block"><img src="assets/img/courses/courses2.jpg" alt="image"></a>
-                                    <div class="courses-tag">
-                                        <a routerLink="/courses-2-columns-style-1" class="d-block">Design</a>
-                                    </div>
-                                </div>
-    
-                                <div class="courses-content">
-                                    <div class="course-author d-flex align-items-center">
-                                        <img src="assets/img/user2.jpg" class="rounded-circle mr-2" alt="image">
-                                        <span>Sarah Taylor</span>
-                                    </div>
-                                    <h3><a routerLink="/single-courses" class="d-inline-block">Certified Graphic Design with Free Project Course</a></h3>
-                                    <div class="courses-rating">
-                                        <div class="review-stars-rated">
-                                            <i class='bx bxs-star'></i>
-                                            <i class='bx bxs-star'></i>
-                                            <i class='bx bxs-star'></i>
-                                            <i class='bx bxs-star'></i>
-                                            <i class='bx bxs-star-half'></i>
-                                        </div>
-                                        <div class="rating-total">
-                                            4.5 (2 rating)
-                                        </div>
-                                    </div>
-                                </div>
-    
-                                <div class="courses-box-footer">
-                                    <ul>
-                                        <li class="students-number">
-                                            <i class='bx bx-user'></i> 15 students
-                                        </li>
-                                        <li class="courses-lesson">
-                                            <i class='bx bx-book-open'></i> 10 lessons
-                                        </li>
-                                        <li class="courses-price">
-                                            $250
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="courses-sidebar-information">
-                    <ul>
-                        <li>
-                            <span><i class='bx bx-group'></i> Students:</span>
-                            10
-                        </li>
-                        <li>
-                            <span><i class='bx bx-time'></i> Length:</span>
-                            1 Weeks
-                        </li>
-                        <li>
-                            <span><i class='bx bx-tachometer'></i> Effort:</span>
-                            2–5 hours per week
-                        </li>
-                        <li>
-                            <span><i class='bx bxs-institution'></i> Institution:</span>
-                            <a href="#" target="_blank" class="d-inline-block">ABC</a>
-                        </li>
-                        <li>
-                            <span><i class='bx bxs-graduation'></i> Subject:</span>
-                            Design
-                        </li>
-                        <li>
-                            <span><i class='bx bx-atom'></i> Quizzes:</span>
-                            Yes
-                        </li>
-                        <li>
-                            <span><i class='bx bxs-badge-check'></i> Level:</span>
-                            Introductory
-                        </li>
-                        <li>
-                            <span><i class='bx bx-support'></i> Language:</span>
-                            English
-                        </li>
-                        <li>
-                            <span><i class='bx bx-text'></i> Video Subtitle:</span>
-                            English
-                        </li>
-                        <li>
-                            <span><i class='bx bx-certification'></i> Certificate:</span>
-                            Yes
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="courses-sidebar-syllabus">
-                    <h3>Course Syllabus</h3>
-                    <span class="chapter">Chapter 1</span>
-                    <h4>Lessons</h4>
-                    <div class="courses-list">
-                        <ul>
-                            <li>
-                                Introduction
-                            </li>
-                            <li>
-                                <a routerLink="/single-courses">
-                                    <span class="number">1.</span> Secret 1: Sell The Problem, Not The Solution (14:37) <span class="free-lesson">Free</span>
-                                </a>
-                            </li>
-                            <li>
-                                Quiz - Secret 1: Sell The Problem, Not The Solution
-                            </li>
-                            <li>
-                                <span class="number">2.</span> Secret 2: Think Like a Magazine, Not a Salesman (4:30)
-                            </li>
-                            <li>
-                                Quiz - Secret 2: Think Like a Magazine, Not a Salesman
-                            </li>
-                            <li>
-                                <span class="number">3.</span> Secret 3: Content Is King, but Consistency Is Queen (3:56)
-                            </li>
-                            <li>
-                                Quiz - Secret 3: Content Is King, but Consistency Is Queen
-                            </li>
-                            <li>
-                                <span class="number">4.</span> Secret 4: Punch Above Your Weight Class (11:00)
-                            </li>
-                            <li>
-                                <span class="number">5.</span> Secret 5: Ethically Steal Your Competitors' Customers (8:12)
-                            </li>
-                            <li>
-                                <span class="number">6.</span> Secret 6: Bulid an Audience By Borrowing (10:25)
-                            </li>
-                            <li>
-                                Quiz - Secret 6: Bulid an Audience By Borrowing
-                            </li>
-                            <li>
-                                <span class="number">7.</span> Secret 7: Be a Shadow, Not a Ghost (5:19)
-                            </li>
-                            <li>
-                                <span class="number">8.</span> Bonus: Tips to Be a 5 Stars Freelancer (16:07)
-                            </li>
-                            <li>
-                                <span class="number">9.</span> Closing Thoughts (3:15)
-                            </li>
-                            <li>
-                                Quiz - Secret 7: Be a Shadow, Not a Ghost
-                            </li>
-                        </ul>
-                    </div>
-                    <span class="chapter">Chapter 2</span>
-                    <h4>Final Quiz</h4>
-                    <div class="courses-list">
-                        <ul>
-                            <li>
-                                Final Quiz
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="courses-purchase-info">
-                    <h4>Interested in this course for your Business or Team?</h4>
-                    <p>Train your employees in the most in-demand topics, with edX for Business.</p>
-                    <a routerLink="/single-courses" class="d-inline-block">Purchase now</a>
-                    <a routerLink="/single-courses" class="d-inline-block">Request Information</a>
-                </div>
+                    
             </div>
         </div>
+    </section>
     </div>
-</section>
+
+    <!-- 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------\
+---------------------------------------------------------------------------------
+Python course coontent
+
+
+-->
