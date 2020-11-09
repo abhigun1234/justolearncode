@@ -9,6 +9,9 @@
     transition: var(--transition);
 
     .courses-image {
+        width:250px;
+        margin-top: 50px;
+        height: 150px;
         border-radius: 5px 5px 0 0;
         position: relative;
 
@@ -18,7 +21,6 @@
             }
         }
         .courses-tag {
-            position: absolute;
             right: 25px;
             bottom: 0;
             background-color: var(--whiteColor);

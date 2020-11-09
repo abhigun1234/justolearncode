@@ -63,6 +63,7 @@ import {Course5Component} from './coursecontent/course5/course5.component'
 import {Course6Component} from './coursecontent/course6/course6.component'
 const routes: Routes = [
     {path: '', component: HomePageOneComponent},
+    {path: 'home', component: HomePageOneComponent},
     {path: 'course-portal-online', component: HomePageTwoComponent},
     {path: 'distant-learning', component: HomePageThreeComponent},
     {path: 'modern-teaching', component: HomePageFourComponent},

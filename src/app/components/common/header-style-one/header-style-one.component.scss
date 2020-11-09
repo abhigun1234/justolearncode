@@ -197,7 +197,7 @@
     }
 }
 .top-header-style-four {
-    background-color: var(--mainColor);
+    background-color:  #24FCEF;
     padding: {
         top: 0;
         bottom: 0;
@@ -248,7 +248,7 @@
     margin-top: -10px;
     margin-right: 120px;
     .navbar {
-        background-color: var(--whiteColor);
+        background-color: #40123C;
         padding: 0 20px;
         border-radius: 3px;
         margin-right: 350px;
@@ -275,7 +275,7 @@
                 padding: 0;
 
                 a {
-                    color: var(--blackColor);
+                    color: var(--whiteColor);
                     font: {
                         size: 16.5px;
                         weight: 500;
@@ -1036,10 +1036,14 @@
         }
     }
 }
+.navbar-area navbar-style-three{
+    background-color: #40123C;
+}
 .navbar-style-three {
     .ednuv-nav {
         margin-top: 0;
-        background-color: var(--whiteColor);
+        width:100%;
+        background-color: #40123C;
 
         .navbar {
             border-radius: 0;
@@ -1211,6 +1215,7 @@
 @media only screen and (max-width: 991px) {
 
     .ednuv-responsive-nav {
+        background-color: ednuv-responsive-nav;
         display: block;
         
         .ednuv-responsive-menu {
@@ -1358,9 +1363,10 @@
             width: 50%;
             z-index: 999;
         }
+        
     }
     .navbar-area {
-        background-color: var(--whiteColor);
+        background-color: #40123C;
         padding: {
             top: 15px;
             bottom: 15px;
@@ -1584,6 +1590,7 @@
             bottom: 0;
         };
     }
+
     .ednuv-responsive-nav {
         .ednuv-responsive-menu {
             .others-option {
@@ -1592,4 +1599,11 @@
         }
     }
 
+}
+.logoImg{
+    width: 85rem;
+    
+}
+.logoImgLarge{
+    width: 60%;  
 }
