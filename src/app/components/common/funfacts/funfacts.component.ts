@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+//comment
 @Component({
   selector: 'app-funfacts',
   templateUrl: './funfacts.component.html',
